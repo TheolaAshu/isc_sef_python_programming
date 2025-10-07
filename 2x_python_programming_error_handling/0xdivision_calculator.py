@@ -1,7 +1,7 @@
 try:
     
-    divisor = int (input("Enter the Divisor: "))
-    dividend = int (input("Enter the Dividend: "))
+    divisor = int (input("Enter the Numerator: "))
+    dividend = int (input("Enter the Denominator: "))
 
     Answer = divisor/dividend
     
