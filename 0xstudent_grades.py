@@ -2,6 +2,7 @@
 #     "name": "Alice",
 #     "mark": 25,
 # }
+
 # print(user["name"])          
 # print(user["mark"])     
 student_name = [30]
