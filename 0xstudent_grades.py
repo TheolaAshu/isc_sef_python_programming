@@ -14,15 +14,23 @@ print("Score:", student_mark)
 
     
     
-def user_info(name, age):   
-    print(f"{name} is {age} years old") 
-user_info(age=25, name="ALice")
+def calculate_grades(student_marks):
+    grades = {}  # dictionary to store results
+    name = {}
+    mark = {}
+  
+        
+        # Determine grade based on the grading scale
+        if 90 <= mark <= 100:
+            grades[student] = "A"
+        elif 80 <= mark <= 89:
+            grades[student] = "B"
+        elif 70 <= mark <= 79:
+            grades[student] = "C"
+        elif 60 <= mark <= 69:
+            grades[student] = "D"
+        else:
+            grades[student] = "F"
+    
+    return grades
 
-grade = 10
-if num >= 20:
-    if num < 30:
-        print ("NUmber is between 20 and 29")
-    else:
-        print("number is 30 or greater")
-else:
-    print("Number is less than 20")
